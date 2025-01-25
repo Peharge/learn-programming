@@ -1,0 +1,28 @@
+# Zufallszahl zwischen 1 und 100 generieren
+number = rand(1:100)
+guess = 0
+attempts = 0
+
+println("Willkommen zum Zahlenratespiel!")
+println("Ich habe mir eine Zahl zwischen 1 und 100 ausgedacht. Versuche sie zu erraten!")
+
+# Spielschleife
+while guess != number
+    println("Gib deine Schätzung ein:")
+    guess = parse(Int, readline())
+
+    # Überprüfen, ob die Eingabe gültig ist
+    try
+        attempts += 1  # Zähler für Versuche erhöhen
+
+        if guess < number
+            println("Zu niedrig! Versuch es noch einmal.")
+        elseif guess > number
+            println("Zu hoch! Versuch es noch einmal.")
+        else
+            println("Herzlichen Glückwunsch! Du hast die Zahl $number in $attempts Versuchen erraten.")
+        end
+    catch e
+        println("Bitte gib eine gültige Zahl ein.")
+    end
+end
