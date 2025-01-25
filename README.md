@@ -1,2 +1,2 @@
 [![All you need](https://skillicons.dev/icons?i=python,cpp,c,rust,js,java,cs,julia,kotlin,lua,swift,php,bash,powershell,ts,html,css,go,ocaml,perl,r,ruby,scala,latex)](https://skillicons.dev)
-json
+JSON, BASIC, Fortran, Lisp, Smalltalk, Dart, Elixir, Haskell, Clojure, F-Sharp, V, Zig, Nim, Haxe, Crystal, (Flutter), Erlang, COBOL, ALGOL, Pascal, APL
