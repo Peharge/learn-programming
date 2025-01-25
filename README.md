@@ -1,0 +1,1 @@
+[![All you need](https://skillicons.dev/icons?i=python,cpp,c,rust,js,java,cs,julia,kotlin,lua,swift,bash,powershell)](https://skillicons.dev)
