@@ -1,0 +1,23 @@
+{
+  "projekt": {
+    "name": "Beispiel-Projekt",
+    "beschreibung": "Dies ist ein einfaches Beispiel für eine JSON-Datei.",
+    "erstelltAm": "2025-01-25",
+    "version": "1.0",
+    "autoren": [
+      {
+        "name": "Max Mustermann",
+        "rolle": "Entwickler"
+      },
+      {
+        "name": "Erika Musterfrau",
+        "rolle": "Designer"
+      }
+    ],
+    "technologien": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }
+}

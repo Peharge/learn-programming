@@ -1,0 +1,36 @@
+/* Beschreibung: Ein einfaches CSS-Stylesheet
+   Datum: 25.01.2025 */
+
+/* Grundlegende Stildefinition für den Body */
+body {
+    background-color: #f0f0f0; /* Heller Hintergrund */
+    font-family: Arial, sans-serif; /* Schriftart */
+    color: #333; /* Textfarbe */
+    margin: 0;
+    padding: 0;
+}
+
+/* Überschrift 1 */
+h1 {
+    color: #4CAF50; /* Grüner Text für die Hauptüberschrift */
+    text-align: center; /* Zentrierter Text */
+    margin-top: 50px;
+}
+
+/* Stil für Links */
+a {
+    color: #007BFF; /* Blaue Links */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+}
+
+a:hover {
+    text-decoration: underline; /* Unterstreichung bei Hover */
+}
+
+/* Stil für Absätze */
+p {
+    font-size: 16px; /* Schriftgröße */
+    line-height: 1.6; /* Zeilenhöhe */
+    margin: 20px auto;
+    width: 80%; /* Breite des Textes */
+}
